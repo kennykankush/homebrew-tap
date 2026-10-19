@@ -1,6 +1,6 @@
 cask "unifai" do
-  version "0.6.1"
-  sha256 "a34132fc11c04b04de48b399764789fdb1a9580324168e3c32341f9bef4d22d3"
+  version "0.7.0"
+  sha256 "3039bda0e885e1abc85d1f26b829934ae43de67ac32846af1a971fccaa66d187"
 
   url "https://github.com/kennykankush/Unifai/releases/download/v#{version}/Unifai-#{version}.zip"
   name "Unifai"
@@ -14,12 +14,6 @@ cask "unifai" do
   binary "#{appdir}/Unifai.app/Contents/MacOS/unifai-mcp"
 
   uninstall quit: "dev.unifai.app"
-
-  caveats <<~EOS
-    This build is signed with Developer ID but not notarized.
-    If macOS blocks the first launch, open System Settings > Privacy & Security
-    and click Open Anyway.
-  EOS
 
   zap trash: [
     "~/Library/Application Support/Unifai",
