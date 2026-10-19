@@ -1,7 +1,11 @@
-# Homebrew tap
+# Moved
+
+Unifai's cask now lives in its own repository, which is its own Homebrew tap:
 
 ```sh
-brew install --cask kennykankush/tap/unifai
+brew tap kennykankush/unifai https://github.com/kennykankush/unifAI
+brew trust kennykankush/unifai
+brew install --cask unifai
 ```
 
-Update with `brew upgrade --cask unifai`. Source: https://github.com/kennykankush/Unifai
+This repository is archived.
