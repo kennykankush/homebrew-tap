@@ -1,6 +1,6 @@
 cask "unifai" do
-  version "0.2.0"
-  sha256 "6b995962d2a1708f60da7093fac7e380d79dd48b729b94dd39687a291b123b38"
+  version "0.2.1"
+  sha256 "9337f1f6d03f1e6205f8dea0418633ca8152a31e6a64ee8e79dc38a11eb75558"
 
   url "https://github.com/kennykankush/Unifai/releases/download/v#{version}/Unifai-#{version}.zip"
   name "Unifai"
